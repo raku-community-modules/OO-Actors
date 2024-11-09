@@ -1,16 +1,28 @@
 {
-    "perl" : "6.*",
-    "name" : "OO::Actors",
-    "version" : "0.2",
-    "authors": [
-        "Jonathan Worthington <jnthn@jnthn.net>"
-    ],
-    "auth": "zef:jnthn",
-    "description" : "A basic and partial implementation of actors using Raku meta-programming.",
-    "provides" : {
-        "OO::Actors" : "lib/OO/Actors.rakumod"
-    },
-    "depends" : [ ],
-    "repo-type" : "git",
-    "source-url" : "git://github.com/jnthn/oo-actors.git"
+  "auth": "zef:raku-community-modules",
+  "authors": [
+    "Jonathan Worthington"
+  ],
+  "build-depends": [
+  ],
+  "depends": [
+  ],
+  "description": "Implementation of actors using Raku meta-programming",
+  "license": "NOASSERTION",
+  "name": "OO::Actors",
+  "perl": "6.*",
+  "provides": {
+    "OO::Actors": "lib/OO/Actors.rakumod"
+  },
+  "repo-type": "git",
+  "resources": [
+  ],
+  "source-url": "https://github.com/raku-community-modules/OO-Actors.git",
+  "tags": [
+    "ACTOR",
+    "SLANG"
+  ],
+  "test-depends": [
+  ],
+  "version": "0.2"
 }
