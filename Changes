@@ -1,6 +1,8 @@
 Revision history for OO-Actors
 
 {{$NEXT}}
+
+0.4  2025-02-12T14:20:42+01:00
     - Also ignore the new POPULATE method
     - Update copyright year
 
