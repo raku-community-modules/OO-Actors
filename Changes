@@ -1,6 +1,8 @@
 Revision history for OO-Actors
 
 {{$NEXT}}
+    - Also ignore the new POPULATE method
+    - Update copyright year
 
 0.3  2024-11-09T11:54:05+01:00
     - Initial version as a Raku Community module

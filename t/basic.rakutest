@@ -1,4 +1,5 @@
 use OO::Actors;
+
 use Test;
 
 plan 3;
@@ -28,3 +29,5 @@ await do for ^4 {
 pass 'Made many calls to Actor over many threads';
 
 is (await $el.latest-entries()).elems, 20, 'Correct number of entries';
+
+# vim: expandtab shiftwidth=4
